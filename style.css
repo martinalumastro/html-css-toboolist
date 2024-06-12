@@ -29,6 +29,28 @@ p {
     display: inline-block;
 }
 
+/*Colori background*/
+.background-blue {
+    background-color: rgb(0, 110, 255);
+}
+.background-purple {
+    background-color: blueviolet;
+}
+.background-green {
+    background-color: rgb(13, 200, 122);
+}
+.background-orange {
+    background-color: orange;
+}
+
+/*Colori testo*/
+.green-color {
+    color: rgb(0, 255, 4);
+}
+.red-color {
+    color: rgb(250, 0, 0)
+}
+
 /*Layout*/
 .container {
     max-width: 800px;
@@ -56,11 +78,10 @@ p {
 
 /*Section*/
 section {
-    padding: 24px 48px;
+    padding: 0px 48px;
 }
 
 div section:first-child {
-    padding: 0px 48px;
     margin-bottom: 4px;
     border-radius: 8px 8px 0 0;
 }
@@ -84,14 +105,17 @@ div section:first-child {
 }
 
 /*Elementi lista*/
+div h1 {
+    padding-top: 48px;
+}
+
+div p {
+    padding-top: 16px;
+}
 
 span {
     border: solid 2px;
     border-radius: 50%;
-    color: rgb(0, 255, 4);
     margin-right: 16px;
 }
 
-.background-blue {
-    background-color: rgb(0, 110, 255);
-}

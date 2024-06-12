@@ -11,7 +11,7 @@ body {
 a {
     display: inline-block;
     text-decoration: none;
-    padding: 4px 8px;
+    padding: 6px 10px;
     color: rgb(255, 255, 255);
     border-radius: 16px;
     font-size: 12px;
@@ -29,6 +29,10 @@ p {
     display: inline-block;
 }
 
+li {
+    list-style: none;
+}
+
 /*Colori background*/
 .background-blue {
     background-color: rgb(0, 110, 255);
@@ -36,11 +40,17 @@ p {
 .background-purple {
     background-color: blueviolet;
 }
-.background-green {
+.background-green-water {
     background-color: rgb(13, 200, 122);
 }
 .background-orange {
-    background-color: orange;
+    background-color: rgb(255, 165, 0);
+}
+.background-fuchsia {
+    background-color: rgb(255, 0, 255);
+}
+.background-green {
+    background-color: rgb(151, 217, 51);
 }
 
 /*Colori testo*/
@@ -105,11 +115,11 @@ div section:first-child {
 }
 
 /*Elementi lista*/
-div h1 {
-    padding-top: 48px;
+li h1 {
+    padding-top: 40px;
 }
 
-div p {
+li p {
     padding-top: 16px;
 }
 
